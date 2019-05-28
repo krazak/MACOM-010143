@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/MACOM-010143/v15/Browse.VC.opendb
+/.vs/MACOM-010143/v15/Browse.VC.db
+/PhaseShiftApp/.vs/PhaseShiftApp/v15/ipch/6e729371e0b15bd0.ipch
+/PhaseShiftApp/.vs/PhaseShiftApp/v15/ipch/20e2423aca845878.ipch
+/PhaseShiftApp/.vs/PhaseShiftApp/v15/Browse.VC.opendb
+/PhaseShiftApp/.vs/PhaseShiftApp/v15/Browse.VC.db
+/PhaseShiftApp/.vs/PhaseShiftApp/v15/.suo
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.tlog/unsuccessfulbuild
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.tlog/PhaseShiftApp.lastbuildstate
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.tlog/CL.write.1.tlog
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.tlog/CL.read.1.tlog
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.tlog/CL.command.1.tlog
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.log
+/PhaseShiftApp/PhaseShiftApp/Debug/PhaseShiftApp.Build.CppClean.log
+/PhaseShiftApp/PhaseShiftApp/PhaseShiftApp.vcxproj.user
+/PhaseShiftDriver/.vs/PhaseShiftDriver/v15
+/PhaseShiftDriver/PhaseShiftDriver/Debug
+/PhaseShifter/.vs/PhaseShifter/v15
+/PhaseShifter/PhaseShiftApp/Debug
+/PhaseShifter/PhaseShiftDriver/Debug
