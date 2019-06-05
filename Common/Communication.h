@@ -12,11 +12,12 @@ class TCPClient
 public:
 	TCPClient();
 	void Initialize();
-	bool SendData(unsigned char *pData);
+	bool SendData(const char *pData, int length);
 	bool Connect();
 	bool IsInitialized() { return m_bInitialized; };
 	bool IsConnected() { return m_bConnected; };
 	string GetError() { return m_sError; };
+	void Shutdown();
 private:
 	bool m_bInitialized;
 	bool m_bConnected;
@@ -28,18 +29,34 @@ private:
 };
 
 
+
+class IDataSuscriber
+{
+public:
+	virtual void OnReceivedClientData(char buffer[], int &length) = 0;
+};
+
+
 class TCPServer
 {
 public:
-	TCPServer();
+	TCPServer(IDataSuscriber *m_pDataSubscriber);
+	~TCPServer();
+	void HandleClientRequests(int iSocket);
 	bool Start();
-	bool Read(char buffer[], int &length);
-	bool Send(char buffer[], int length);
 	string GetError() { return m_sError; };
+	void Shutdown();
 private:
 	std::mutex m_control;
 	string m_sError;
-	int m_iSocket;
 	bool m_bShutdown;
 	static const char *port;
+	IDataSuscriber *m_pDataSubscriber;
+	std::thread *m_pClientHndlThread;
+	SOCKET ListenSocket;
+	SOCKET ClientSocket;
+
+	bool Read(int iSocket, char buffer[], int &length);
+	bool Send(int iSocket, char buffer[], int length);
+
 };

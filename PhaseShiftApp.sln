@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseShiftDriver", "PhaseShiftDriver\PhaseShiftDriver.vcxproj", "{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseShiftDriver", "..\PhaseShiftDriver\PhaseShiftDriver\PhaseShiftDriver.vcxproj", "{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseShiftApp", "PhaseShiftApp\PhaseShiftApp.vcxproj", "{EEFE48EE-78AA-42AA-B175-19FBE2002370}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseShiftApp", "MACOM PhaseShiftApp\PhaseShiftApp.vcxproj", "{EEFE48EE-78AA-42AA-B175-19FBE2002370}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F} = {00BC6B26-8EF6-4B79-899B-89D6682AFA4F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +39,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B17CB3D9-64FE-4F56-B2DF-E0425C83048D}
+		SolutionGuid = {9E54C79F-334D-44D5-B406-71ED57B44273}
 	EndGlobalSection
 EndGlobal
