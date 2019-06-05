@@ -12,26 +12,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhaseShiftDriver", "MACOM P
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Debug|x64.ActiveCfg = Debug|x64
-		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Debug|x64.Build.0 = Debug|x64
 		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Debug|x86.ActiveCfg = Debug|Win32
 		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Debug|x86.Build.0 = Debug|Win32
-		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Release|x64.ActiveCfg = Release|x64
-		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Release|x64.Build.0 = Release|x64
 		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Release|x86.ActiveCfg = Release|Win32
 		{EEFE48EE-78AA-42AA-B175-19FBE2002370}.Release|x86.Build.0 = Release|Win32
-		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Debug|x64.ActiveCfg = Debug|x64
-		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Debug|x64.Build.0 = Debug|x64
 		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Debug|x86.ActiveCfg = Debug|Win32
 		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Debug|x86.Build.0 = Debug|Win32
-		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Release|x64.ActiveCfg = Release|x64
-		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Release|x64.Build.0 = Release|x64
 		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Release|x86.ActiveCfg = Release|Win32
 		{00BC6B26-8EF6-4B79-899B-89D6682AFA4F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
